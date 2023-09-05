@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.12.11
+
+- Update docs and readme file.
+
 ## 4.12.10
 
 - Add ECDSA option.
