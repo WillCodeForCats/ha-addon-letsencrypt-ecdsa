@@ -121,13 +121,13 @@ inwx_shared_secret: ''
 <details>
   <summary>Selecting the Key Type</summary>
 
-  By default the RSA key type is used. You can choose to use an ECDSA key instead. 
+  By default the ECDSA key type is used. You can choose to use an RSA key instead. 
 
   ```yaml
-  key_type: 'ecdsa'
+  key_type: 'rsa'
   ```
 
-  When ECDSA is selected, keys will be generated using the secp384r1 curve.
+  ECDSA keys will be generated using the secp384r1 curve by default.
 
 </details>
 
@@ -565,15 +565,11 @@ Got questions?
 
 You have several options to get them answered:
 
-- The [Home Assistant Discord Chat Server][discord].
 - The Home Assistant [Community Forum][forum].
-- Join the [Reddit subreddit][reddit] in [/r/homeassistant][reddit]
 - Check out certbots page [certbot].
 
 In case you've found a bug, please [open an issue on our GitHub][issue].
 
-[discord]: https://discord.gg/c5DvZ4e
 [forum]: https://community.home-assistant.io
-[issue]: https://github.com/home-assistant/addons/issues
+[issue]: https://github.com/WillCodeForCats/ha-addon-letsencrypt-ecdsa/issues
 [certbot]: https://certbot.eff.org
-[reddit]: https://reddit.com/r/homeassistant
