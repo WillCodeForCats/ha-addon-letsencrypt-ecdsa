@@ -5,6 +5,11 @@ build_from:
   armhf: ghcr.io/home-assistant/armhf-base-python:3.9-alpine3.14
   armv7: ghcr.io/home-assistant/armv7-base-python:3.9-alpine3.14
   i386: ghcr.io/home-assistant/i386-base-python:3.9-alpine3.14
+labels:
+  org.opencontainers.image.title: "Let's Encrypt ECDSA"
+  org.opencontainers.image.description: "SSL Certificate from Let's Encrypt with ECDSA"
+  org.opencontainers.image.source: "https://github.com/WillCodeForCats/ha-addon-letsencrypt-ecdsa"
+  org.opencontainers.image.licenses: "Apache 2.0 License"
 args:
   CRYPTOGRAPHY_VERSION: 36.0.2
   CERTBOT_DNS_AZURE_VERSION: 1.5.0
