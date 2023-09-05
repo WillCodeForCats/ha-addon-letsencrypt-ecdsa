@@ -9,7 +9,7 @@ labels:
   org.opencontainers.image.title: "Let's Encrypt ECDSA"
   org.opencontainers.image.description: "SSL Certificate from Let's Encrypt with ECDSA"
   org.opencontainers.image.source: "https://github.com/WillCodeForCats/ha-addon-letsencrypt-ecdsa"
-  org.opencontainers.image.licenses: "Apache 2.0 License"
+  org.opencontainers.image.licenses: "Apache License 2.0"
 args:
   CRYPTOGRAPHY_VERSION: 36.0.2
   CERTBOT_DNS_AZURE_VERSION: 1.5.0
