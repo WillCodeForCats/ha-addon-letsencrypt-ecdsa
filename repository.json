@@ -1,0 +1,5 @@
+{
+  "name": "Let's Encrypt Add-On with ECDSA",
+  "url": "https://github.com/WillCodeForCats/ha-addon-letsencrypt-ecdsa",
+  "maintainer": "Seth Mattinen <sethm@rollernet.us>"
+}
