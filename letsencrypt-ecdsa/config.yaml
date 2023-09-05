@@ -1,5 +1,5 @@
 ---
-version: 4.12.10
+version: 4.12.11
 slug: letsencrypt_ecdsa
 name: Let's Encrypt ECDSA
 description: SSL Certificate from Let's Encrypt with ECDSA
