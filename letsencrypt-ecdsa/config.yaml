@@ -1,9 +1,9 @@
 ---
 version: 4.12.10
-slug: letsencrypt
-name: Let's Encrypt
-description: Manage certificate from Let's Encrypt
-url: https://github.com/home-assistant/addons/tree/master/letsencrypt
+slug: letsencrypt_ecdsa
+name: Let's Encrypt ECDSA
+description: SSL Certificate from Let's Encrypt with ECDSA
+url: https://github.com/WillCodeForCats/ha-addon-letsencrypt-ecdsa
 arch:
   - armhf
   - armv7
@@ -11,7 +11,7 @@ arch:
   - amd64
   - i386
 boot: manual
-image: homeassistant/{arch}-addon-letsencrypt
+image: ghcr.io/willcodeforcats/{arch}-letsencrypt-ecdsa
 init: false
 map:
   - ssl:rw
