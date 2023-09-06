@@ -38,4 +38,5 @@ configuration:
   elliptic_curve:
     name: Elliptic Curve
     description: Elliptic curve option for ECDSA keys.
+network:
   80/tcp: Only needed for http challenge

@@ -1,5 +1,5 @@
 ---
-version: 1.0.1
+version: 1.0.2
 slug: letsencrypt_ecdsa
 name: Let's Encrypt ECDSA
 description: SSL Certificate from Let's Encrypt with ECDSA
@@ -92,6 +92,6 @@ schema:
     inwx_username: str?
     inwx_password: str?
     inwx_shared_secret: str?
-  elliptic_curve: "list(secp256r1|secp384r1|secp521r1)?"
+  elliptic_curve: "list(secp256r1|secp384r1)?"
   key_type: "list(rsa|ecdsa)"
 startup: once

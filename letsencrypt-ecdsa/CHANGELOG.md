@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.2
+
+- Remove secp521r1
+
 ## 1.0.1
 
 - Fix run
