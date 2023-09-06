@@ -6,6 +6,10 @@ My ECDSA version adds configuration settings to generate a certificate key using
 
 Note: RSA is still the most backwards compatible with older devices or operating systems that won’t be updated to support ECDSA, but anything in the last 5+ years should support ECDSA.
 
+### What happens if you need to revert to RSA?
+
+You will need to uninstall and re-install the add-on because Certbot will check the last certificate it requested and won't generate a new one until it's within 30 days of expiration. Make sure to copy your configuration (YAML mode is easiest to copy/paste) before uninstalling so you can quickly reconfigure the integration when you install it again.
+
 # Add-On Repository
 
 Configure `https://github.com/WillCodeForCats/ha-addon-letsencrypt-ecdsa` in your add-on repositories.
