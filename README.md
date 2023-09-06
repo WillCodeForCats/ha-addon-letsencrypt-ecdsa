@@ -4,6 +4,8 @@ This add-on was created after my PR to add ECDSA to the official Let's Encrypt a
 
 My ECDSA version adds configuration settings to generate a certificate key using RSA or ECDSA (default ECDSA), and an optional elliptic curve selection (256 or 384, default 384) for ECDSA keys.
 
+Note: RSA is still the most backwards compatible with older devices or operating systems that won’t be updated to support ECDSA, but anything in the last 5+ years should support ECDSA.
+
 # Add-On Repository
 
 Configure `https://github.com/WillCodeForCats/ha-addon-letsencrypt-ecdsa` in your add-on repositories.
