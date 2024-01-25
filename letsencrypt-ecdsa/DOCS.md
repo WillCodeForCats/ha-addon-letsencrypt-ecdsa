@@ -1,6 +1,6 @@
 # Home Assistant Add-on: Letsencrypt
 
-''Depreciated - features now available in official addon starting with version 5.0.13''
+**Depreciated - features now available in official addon starting with version 5.0.13**
 
 ## Installation
 
