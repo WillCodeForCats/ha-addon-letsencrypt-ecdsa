@@ -1,5 +1,6 @@
 # Changelog
 
+## 1.0.4
 ## 1.0.3
 
 - Depreciated - features now available in official add-on starting with version 5.0.13
