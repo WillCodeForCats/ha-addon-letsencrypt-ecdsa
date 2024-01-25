@@ -1,5 +1,7 @@
 # Home Assistant Add-on: Letsencrypt
 
+''Depreciated - features now available in official addon starting with version 5.0.13''
+
 ## Installation
 
 Follow these steps to get the add-on installed on your system:

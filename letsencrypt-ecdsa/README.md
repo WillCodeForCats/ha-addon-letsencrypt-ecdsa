@@ -1,5 +1,7 @@
 # Home Assistant Add-on: Letsencrypt-ecdsa
 
+''Depreciated - features now available in official addon starting with version 5.0.13''
+
 This is a version of the Let's Encrypt Add-on updated to support ECDSA with an optional elliptic curve setting.
 
 Let's Encrypt is a certificate authority that provides free X.509 certificates for Transport Layer Security encryption via an automated process designed to eliminate the hitherto complex process of manual creation, validation, signing, installation, and renewal of certificates for secure websites.

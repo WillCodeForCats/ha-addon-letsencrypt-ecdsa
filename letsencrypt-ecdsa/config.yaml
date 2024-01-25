@@ -1,9 +1,10 @@
 ---
-version: 1.0.2
+version: 1.0.3
 slug: letsencrypt_ecdsa
 name: Let's Encrypt ECDSA
 description: SSL Certificate from Let's Encrypt with ECDSA
 url: https://github.com/WillCodeForCats/ha-addon-letsencrypt-ecdsa
+stage: deprecated
 arch:
   - armhf
   - armv7
